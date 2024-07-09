@@ -1,0 +1,55 @@
+/* Definições básicas */
+body {
+    background-color: #f5f5f5; /* Cor de fundo: cinza claro */
+    color: #333333; /* Cor da fonte: cinza escuro */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #8c7ae6; /* Cor de destaque: lavanda */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Seção principal */
+.main-content {
+    padding: 20px;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    color: #333333; /* Cor da fonte: cinza escuro */
+    font-family: 'Georgia', serif; /* Fonte elegante */
+}
+
+/* Parágrafos */
+p {
+    margin-bottom: 20px;
+}
+
+/* Classes de Destaque */
+.highlight {
+    color: #8c7ae6; /* Cor de destaque: lavanda */
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #cccccc;
+}
