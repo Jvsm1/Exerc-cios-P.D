@@ -1,0 +1,36 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.page-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.introduction {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.explanation {
+    width: 60%;
+    margin-right: 35%;
+    border-right: 1px solid #1f295c;
+    padding-right: 2%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.design-menu {
+    position: absolute;
+    top: 560px;
+    left: 62%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    width: 35%;
+}
+
