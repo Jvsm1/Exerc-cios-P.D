@@ -1,0 +1,47 @@
+/* Estilos para o rodapé da seção principal */
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza os links horizontalmente */
+    align-items: center; /* Centraliza os links verticalmente */
+    gap: 20px; /* Espaçamento entre os links */
+}
+
+footer a {
+    flex: 1 1 100px; /* Define um tamanho uniforme para os links */
+    text-align: center; /* Centraliza o texto dos links */
+    white-space: nowrap; /* Evita quebra de linha */
+}
+
+/* Estilos para a seção de benefícios */
+.benefits {
+    display: flex;
+    border-top: 1px solid #ccc; /* Linha no topo */
+    border-bottom: 1px solid #ccc; /* Linha embaixo */
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+.benefits-text {
+    flex: 0 0 70%; /* Texto ocupa 70% da largura */
+}
+
+.benefits-title {
+    flex: 0 0 30%; /* Título ocupa 30% da largura */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Estilos para a seção de participação */
+.participation {
+    display: flex;
+    border-top: 1px solid #ccc; /* Linha no topo */
+    border-bottom: 1px solid #ccc; /* Linha embaixo */
+    padding: 20px 0; /* Espaçamento interno */
+}
+
+.participation-item {
+    flex: 1; /* Cada item ocupa 50% do espaço disponível */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
