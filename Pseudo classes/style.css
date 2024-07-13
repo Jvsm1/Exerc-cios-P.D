@@ -1,0 +1,33 @@
+/* Aparência padrão dos links */
+a {
+  color: #007BFF; /* Cor de destaque (ajuste conforme necessário) */
+  font-weight: bold;
+}
+
+/* Aparência dos links sobrepostos */
+a:hover, a:active {
+  color: #0056b3; /* Cor ajustada para links sobrepostos */
+}
+
+/* Aparência dos links visitados */
+a:visited {
+  color: #007BFF; /* Manter a cor de destaque */
+  font-weight: normal; /* Remover o negrito */
+}
+/* Selecionar o primeiro parágrafo da seção principal e estilizar a primeira letra */
+.main-section p:first-of-type::first-letter {
+  font-size: 3em; /* Tamanho 3 vezes maior que o padrão */
+  font-family: 'Courier New', Courier, monospace; /* Fonte diferente (ajuste conforme necessário) */
+  float: left; /* Flutuar à esquerda */
+  margin-right: 8px; /* Espaçamento à direita da primeira letra (ajuste conforme necessário) */
+  line-height: 1; /* Ajustar a altura da linha para melhor alinhamento */
+}
+/* Aplicar borda superior em todos os itens do menu de design */
+.menu-item {
+  border-top: 1px solid #ccc; /* Borda superior (ajuste conforme necessário) */
+}
+
+/* Aplicar borda inferior apenas no último item do menu de design */
+.menu-item:last-of-type {
+  border-bottom: 1px solid #ccc; /* Borda inferior (ajuste conforme necessário) */
+}

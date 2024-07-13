@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Customização CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Incluindo o CSS diretamente para facilitar a visualização */
+        
+        /* Aparência padrão dos links */
+        a {
+            color: #007BFF; /* Cor de destaque (ajuste conforme necessário) */
+            font-weight: bold;
+        }
+
+        /* Aparência dos links sobrepostos */
+        a:hover, a:active {
+            color: #0056b3; /* Cor ajustada para links sobrepostos */
+        }
+
+        /* Aparência dos links visitados */
+        a:visited {
+            color: #007BFF; /* Manter a cor de destaque */
+            font-weight: normal; /* Remover o negrito */
+        }
+
+        /* Selecionar o primeiro parágrafo da seção principal e estilizar a primeira letra */
+        .main-section p:first-of-type::first-letter {
+            font-size: 3em; /* Tamanho 3 vezes maior que o padrão */
+            font-family: 'Courier New', Courier, monospace; /* Fonte diferente (ajuste conforme necessário) */
+            float: left; /* Flutuar à esquerda */
+            margin-right: 8px; /* Espaçamento à direita da primeira letra (ajuste conforme necessário) */
+            line-height: 1; /* Ajustar a altura da linha para melhor alinhamento */
+        }
+
+        /* Aplicar borda superior em todos os itens do menu de design */
+        .menu-item {
+            border-top: 1px solid #ccc; /* Borda superior (ajuste conforme necessário) */
+        }
+
+        /* Aplicar borda inferior apenas no último item do menu de design */
+        .menu-item:last-of-type {
+            border-bottom: 1px solid #ccc; /* Borda inferior (ajuste conforme necessário) */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item"><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+                <li class="menu-item"><a href="https://www.google.com" target="_blank">Google</a></li>
+                <li class="menu-item"><a href="https://www.example.com" target="_blank">Example</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-section">
+        <p>
+            Este é o primeiro parágrafo da seção principal. A primeira letra deste parágrafo está customizada para ter um destaque especial, conforme solicitado.
+        </p>
+        <p>
+            Este é o segundo parágrafo da seção principal, que não possui qualquer customização especial na primeira letra.
+        </p>
+    </main>
+</body>
+</html>
