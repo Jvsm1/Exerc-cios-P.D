@@ -1,0 +1,12 @@
+Solução Dissertativa
+
+
+       Entrada:
+        ◦ Ler o valor de n, onde n é um inteiro entre 1 e 9.
+       Processamento:
+        ◦ Calcular o primeiro dígito, digito1, que é igual a n−1.
+        ◦ Calcular o segundo dígito, digito2, que é igual a 10−n.
+        ◦ Multiplicar digito1 por 10.
+        ◦ Somar o resultado da multiplicação ao digito2.
+       Saída:
+        ◦ Imprimir o resultado da operação, que é o produto de 9 por n.

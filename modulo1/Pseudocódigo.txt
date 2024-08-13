@@ -1,0 +1,8 @@
+Início
+    Ler n
+    digito1 <- n - 1
+    digito2 <- 10 - n
+    resultado <- digito1 * 10 + digito2
+    Imprimir resultado
+Fim
+
